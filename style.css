@@ -1,0 +1,630 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* comman css for all the cointainers in the div*/
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+.btn {
+  height: auto;
+  width: auto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 7px 19px;
+  border-radius: 9999px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(123, 63, 228);
+  opacity: 1;
+  background-color: rgba(123, 63, 228);
+  color: rgba(255, 255, 255);
+  text-decoration: none;
+  transition: all 0.22s ease;
+}
+.btn:hover {
+  background-color: rgb(72, 10, 153);
+}
+/* comman css for all the comman names for class should come inside this and ends here */
+
+/* header starts from here */
+header {
+  padding: 20px 0;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+header .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  list-style: none;
+}
+.navigation li {
+  display: inline-block;
+  padding: 10px;
+}
+.navigation li a {
+  color: rgb(37, 36, 36);
+  text-decoration: none;
+  transition: all 1s ease 0;
+}
+.navigation li a:hover {
+  color: rgb(106, 0, 206);
+}
+
+/* header ends here */
+
+/* banner begins here*/
+* {
+  box-sizing: border-box;
+}
+.Relativecontainer {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+.Relativecontainer h1 {
+  text-align: center;
+}
+.Relativecontainer .heading {
+  max-width: 896px;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Relativecontainer p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: center;
+  color: rgba(82, 82, 93);
+  margin-top: 16px;
+}
+.Relativecontainer .content {
+  padding: 20px;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.relativecards {
+  display: flex;
+  gap: 24px;
+  justify-content: space-around;
+  height: 134px;
+  margin-bottom: 80px;
+}
+.relativecards .section {
+  width: 382px;
+  color: black;
+  padding: 1.5rem;
+  text-align: left;
+  border-color: rgba(222, 221, 224);
+  border-width: 1px;
+  border-radius: 0.5rem;
+  border-style: solid;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+  background-color: rgba(255, 255, 255);
+  display: flex;
+  flex-direction: row-reverse;
+}
+.relativecards .section a {
+  display: flex;
+  justify-content: right;
+  max-width: 236px;
+}
+.relativecards .section a img {
+  height: 20px;
+}
+.relativecards .section span {
+  color: blueviolet;
+}
+.relativecards .section:hover {
+  box-shadow: 0 0 15px rgba(33, 33, 33, 0.2);
+}
+/*banner ends here*/
+
+/*purple card starts */
+.purplecard {
+  display: flex;
+  background-color: rgba(123, 63, 228);
+  border-radius: 12px;
+  height: 450px;
+  position: relative;
+}
+.purplecard .text {
+  padding: 48px;
+}
+.purplecard .text .nonbutton h2 {
+  margin-bottom: px;
+  line-height: 1.3;
+  font-size: 37px;
+  font-weight: 700;
+  color: white;
+  max-width: 75%;
+}
+.purplecard .text .nonbutton p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(213, 198, 228);
+  max-width: 75%;
+}
+.purplecard .text .nonbutton .item {
+  list-style: none;
+}
+.purplecard .text .nonbutton .item li {
+  display: flex;
+  gap: 8px;
+  color: rgb(213, 198, 228);
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+.purplecard .text .button {
+  padding: 15px 24px;
+  border-radius: 9999px;
+  opacity: 1;
+  background-color: rgba(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: black;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+.purplecard .illustration img {
+  max-width: 500px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  vertical-align: middle;
+  position: absolute;
+  right: 0px;
+}
+
+/* purple card ends */
+
+/* play card starts here*/
+.eightcard {
+  text-align: center;
+  margin-top: 112px;
+}
+.eightcard h1 {
+  font-size: 32px; /* needs to check on the size*/
+  line-height: 1.3;
+  font-weight: 700;
+  color: rgba(41, 41, 52);
+  margin-bottom: 12px;
+}
+.eightcard p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: rgba(82, 82, 93);
+  margin-bottom: 40px;
+}
+
+.relativeplay {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+}
+.relativeplay .part {
+  min-width: 25%;
+  width: 200px;
+  height: 300px;
+  border-color: rgba(222, 221, 224);
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 25px;
+  padding-right: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.relativeplay .part:hover {
+  border-color: rgb(144, 81, 204);
+  background-color: rgb(246, 245, 248);
+  opacity: 0.9;
+}
+.relativeplay .part h5 {
+  margin-bottom: 10px;
+  line-height: 2;
+  font-weight: 700;
+  color: black;
+  font-size: 16px;
+}
+.relativeplay .part p {
+  color: rgba(82, 82, 93);
+  line-height: 1.7;
+  font-size: 16px;
+  font-weight: 400;
+}
+.relativeplay .part img {
+  max-width: 20%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/* the etherium acceciblity part starts*/
+.accessiblity{
+  margin-bottom: 112px;
+  margin-top: 130px;
+ }
+
+ .accessiblity h1{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: rgba(41, 41, 52);
+  text-align: center;
+  margin-bottom: 48px;
+ }
+
+ .accessiblity .square{
+  display: flex;
+  gap: 32px;
+  min-width: 25%;
+
+ }
+
+ .accessiblity .square .textcenter{
+   text-align: center;
+ }
+ 
+ .accessiblity .square .textcenter img{
+  width: 64px;
+  height: 64px;
+  margin-bottom: 32px;
+ }
+
+ .accessiblity .square h4{
+  color: rgba(10, 10, 13);
+  text-align: center;
+  margin-bottom: 12px;
+  font-weight: 700;
+  line-height: 1.25;
+  font-size: 24px;
+ }
+
+ .accessiblitym .square .textcenter p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(82, 82, 93);
+  text-align: center;
+ }
+/* the etherium acceciblity part ends*/
+
+
+/*the greencard section starts here*/
+.plantpolygon{
+  color: rgba(255, 255, 255);
+  background-color: rgba(25, 61, 69);
+  padding: 48px;
+  border-radius: 12px;
+  position: relative;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  z-index: 0;
+}
+ 
+.plantpolygon  h3{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 100%;
+}
+
+.plantpolygon img{
+  margin-top: 16px;
+  max-width: 100%;
+ position: absolute;
+ margin-top: 1rem;
+ right: 0;
+ bottom: 0;
+ right: 0;
+ max-width: 37%;
+ height: auto;
+}
+.plantpolygon .para{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 384px;
+  margin-bottom: 40px;
+  margin-top: 8px;
+}
+.plantpolygon a{
+  color: rgba(41, 41, 52);
+  border-color: rgba(222, 221, 224);
+  background-color: rgba(255, 255, 255);
+  border-style: solid;
+  border-width:  1px;
+  border-radius: 9999px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 7px 19px;
+  text-decoration: none;
+}
+
+/* the greencard section ends here*/
+
+/*scaling eth starts here*/
+ .ethscaling{
+ cursor: pointer;
+ display: grid;
+ grid-template-columns: repeat(2, minmax(0, 1fr));
+
+ }
+  .headline{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: rgba(41, 41, 52);
+  text-align: center;
+  margin-bottom: 48px;
+  margin-top: 112px;
+ } 
+ .ethscaling a{
+  text-decoration: none;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-color: rgba(222, 221, 224);
+  border-width: 1px;
+  position: relative;
+  border-style: solid;
+  display: flex;
+  transition: all 0.22s ease;
+ }
+ .ethscaling a:hover{
+  background-color: rgba(250, 250, 250);
+ }
+
+
+ .ethscaling img{
+  width: 64px;
+  height: 64px;
+ }
+
+ .ethscaling .combine{
+  margin-left: 24px;
+ }
+
+ .ethscaling .box{
+    display: flex;
+    justify-content: space-between;
+ }
+ .ethscaling .box h4{
+  color: rgba(10, 10, 13);
+  margin-bottom: 4px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25
+ }
+
+ .ethscaling .box img{
+  width: 16px;
+  height: 16px;
+ }
+ .ethscaling .combine .graph{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(82, 82, 93);
+  max-width: 80%;
+
+ }
+
+/*scaling eth starts here*/
+
+
+/*last card starts here*/
+
+.lastcard{
+  display: flex;
+  gap: 24px;
+  margin-top: 112px;
+  margin-bottom: 112px;
+}
+.lastcard .seperate{
+  height: 174px;
+  width: 588px;
+}
+.lastcard .seperate img{
+  height: 48px;
+  width: 48px;
+  margin-bottom: 24px;
+
+}
+.lastcard .seperate h4{
+  color: rgba(41, 41, 52);
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.lastcard .seperate p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(82, 82, 93);
+  margin-bottom: 16px;
+}
+
+.lastcard .seperate a{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(123, 63, 228);
+  text-decoration: none;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+.lastcard .seperate a img{
+  margin-left: 8px;
+  width: 10px;
+  height: 10px;
+  margin-bottom: 0;
+  vertical-align:baseline;
+}
+/*last card ends here*/
+/*footer starts here*/
+
+/*fristfoot starts here*/
+.fristfoot{
+  background-color: rgba(27, 27, 34);
+}
+
+.containerlast{
+  max-width: 1240px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.fristfoot .containerlast .socialmedia{
+  display: flex;
+  justify-content: space-between;
+}
+.fristfoot .containerlast .socialmedia a{
+  display: flex;
+  color: rgba(176, 176, 187);
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+.fristfoot .containerlast .socialmedia img{
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+.fristfoot .containerlast .socialmedia h4{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+
+}
+.fristfoot .containerlast .socialmedia .view img{
+  margin-left: 8px;
+
+}
+/*fristfoot ends here*/
+
+
+/* secondfoot starts here*/
+.secondfoot{
+  background-color: rgba(10, 10, 13);
+}
+.secondfoot .containersec{
+  max-width: 1240px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.secondfoot .containersec .upperportion{
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:  rgba(255, 255, 255);
+}
+
+.secondfoot .containersec .upperportion img
+{
+  height: 32px;
+  width: 153px;
+  vertical-align: middle;
+}
+
+.secondfoot .containersec .upperportion h5{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.secondfoot .containersec .border{
+  border-width: 1px;
+  opacity: 0.2;
+}
+
+.secondfoot .containersec .lowerportion{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.secondfoot .containersec .lowerportion h5{
+  font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: rgba(255, 255, 255);
+
+}
+.secondfoot .containersec .lowerportion .headling{
+  max-width: 16.6%;
+}
+
+.secondfoot .containersec .lowerportion ul{
+  list-style: none;
+}
+.secondfoot .containersec .lowerportion ul li{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 12px;
+  list-style: none;
+}
+
+.secondfoot .containersec .lowerportion ul li a{
+  color: rgba(255, 255, 255);
+  text-decoration: none;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+/*secondfoot ends here*/
+
+/*footer ends here*/
